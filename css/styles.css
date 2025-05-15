@@ -36,12 +36,11 @@ button {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.header-logo .accent,
-.footer-logo .accent {
-  color: #4d5ae5;
+.header-logo .accent {
+  color: #2e2f42;
 }
 
 .header-list {
@@ -96,6 +95,11 @@ button {
   background-color: #2e2f42;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -112,8 +116,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 
 /** =====About=====*/
@@ -162,6 +165,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .section-team-list,
@@ -169,6 +173,7 @@ button {
   background-color: #fff;
 }
 .section-team-item {
+  background-color: #ffffff;
 }
 .section-team-img {
 }
@@ -188,6 +193,7 @@ button {
 }
 
 .section-portfolio-img {
+  width: 360px;
 }
 
 /** =====Footer=====*/
@@ -197,6 +203,10 @@ button {
 }
 
 .footer-logo {
+  color: #4d5ae5;
+}
+
+.footer-logo .accent {
   color: #f4f4fd;
 }
 
